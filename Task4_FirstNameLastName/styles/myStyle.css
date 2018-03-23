@@ -1,0 +1,106 @@
+body {
+    direction: rtl;
+    background-image: url(../images/1.jpg);
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#conteiner {
+    width: 960px;
+    margin: 0 auto;
+
+
+}
+#first:first-letter {
+    color: forestgreen;
+    font-size: 28pt;
+}
+#second::first-letter {
+    color: forestgreen;
+    font-size: 28pt;
+}#third {
+     margin-top: 30px;
+ }
+#number4 {
+    margin-top: 30px;
+}
+#life {
+    color: red;
+   
+    
+}
+#education {
+    color: red;
+    
+}
+#job {
+    color: red;
+   
+}
+#hobbies {
+    color: red;
+   
+}
+#ways {
+    color: red;
+  
+}
+
+    #ways:hover {
+        text-shadow: 6px 6px 5px;
+        color: black;
+    }
+#hobbies:hover {
+    text-shadow: 6px 6px 5px;
+    color: black;
+}
+#job:hover {
+    text-shadow: 6px 6px 5px;
+    color: black;
+}
+#education:hover {
+    text-shadow: 6px 6px 5px;
+    color: black;
+}
+#B{
+    background-image:url(../images/facebook.png);
+    width:60px;
+    height:60px;
+    display:inline-block;
+    background-size:contain;
+}
+ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+    display: block;
+    background-color: lightgray;
+    color: white;
+    width: 120px;
+    height: 50px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+    nav ul li a:hover {
+        background-color: #808080;
+    }
+
+    nav ul li a:active {
+        background-color: blue;
+    }
+#C{
+  
+    height:60px;
+    width:60px;
+    margin: auto 0px -22px auto;
+}
+#life:hover {
+    text-shadow: 6px 6px 5px;
+    color:black;
+}
+
